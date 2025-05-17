@@ -1,0 +1,34 @@
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+env/
+venv/
+lambda/package/
+
+# Lambda 배포용 패키징 결과
+lambda.zip
+terraform/lambda.zip
+
+# pip 설치 결과 (로컬 테스트 목적 등)
+package/
+lambda/package/
+
+# Terraform 상태 및 캐시
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+
+# 로그 파일
+*.log
+
+# VSCode 설정 (옵션)
+.vscode/
+
+# macOS 특유 파일
+.DS_Store
