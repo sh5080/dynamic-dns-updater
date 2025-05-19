@@ -6,7 +6,7 @@ cd lambda || exit 1
 # dependencies 설치
 echo "Installing Python dependencies..."
 rm -rf package lambda.zip
-pip install --target ./package -r requirements.txt
+pip3 install --target ./package -r requirements.txt
 
 # 패키징
 echo "Packaging Lambda function..."
