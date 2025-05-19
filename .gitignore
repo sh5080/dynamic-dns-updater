@@ -22,7 +22,7 @@ lambda/package/
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
-terraform.tfvars
+*.tfvars
 
 # 로그 파일
 *.log
